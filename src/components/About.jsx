@@ -5,7 +5,7 @@ const About = () => {
     <div className='m-5 sm:m-20'>
 			<p className='text-center text-3xl sm:text-5xl font-bold'> What is <span className='text-blue-400'>Bit 2 Byte</span> ? </p>
 			<div className='sm:flex items-center gap'>
-				<img src="/src/images/about.png" className='h-96' alt="" />
+				<img src="about.png" className='h-96' alt="" />
 				<p className='text-md p-5 sm:p-20'> Bit-2-Byte is more than just a name—it's a movement, a mission, and a beacon for every aspiring coder and tech enthusiast. Born out of the vision to create a thriving community, Bit-2-Byte is the heart of innovation at GNIT, where passion meets purpose, and ideas transform into solutions.
 				<br /><br />
 				This coding club stands as a testament to the limitless potential of technology. Its mission? To empower students, ignite curiosity, and cultivate a generation of problem solvers who can tackle the challenges of tomorrow. Every bit represents a spark of creativity, and every byte symbolizes the collective strength of the community.
