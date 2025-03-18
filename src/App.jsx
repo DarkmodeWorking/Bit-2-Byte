@@ -1,20 +1,43 @@
 import React from 'react'
-import Header from './components/Header'
 import Main from './components/Main'
 import Services from './components/Services'
 import About from './components/About'
-import Footer from './components/Footer'
+import MainLayout from './layout/MainLayout'
+import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import TeamA from './components/Teams/TeamA'
 
-const App = () => {
+const appRouter = createBrowserRouter([
+	{
+		path: '/',
+		element: <MainLayout />,
+    children: [
+      {
+        path: '/',
+        element: 
+          <>
+            <Main />
+            <About />
+            <Services />
+          </>
+      },
+      {
+        path: '/team-2025',
+        element:
+         <>
+          <TeamA />
+         </>
+      }
+    ]
+	}
+])
+
+function App() {
   return (
     <>
-      <Header />
-      <Main />
-      <About />
-      <Services />
-      <Footer />
+      <main>
+          <RouterProvider router={appRouter} />
+      </main>
     </>
   )
 }
-
 export default App
