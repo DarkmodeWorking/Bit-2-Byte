@@ -5,7 +5,7 @@ const menuItems = [
   {
     name: "About",
     dropdown: [
-      { label: "Vision", link: "/vision" },
+      { label: "About Us", link: "/about-us" },
       { label: "Faculty", link: "/faculty" },
       { label: "Advisors", link: "/advisors" },
       { label: "Team of 2025", link: "/team-2025" }
@@ -55,7 +55,7 @@ const Header = () => {
   };
 
   return (
-    <div className="px-10 pr-28 py-4 shadow-md">
+    <div className="px-10 pr-36 py-4 shadow-md">
       {/* Logo & Navigation in the same flex container */}
       <div className="flex items-center justify-between">
         {/* Logo */}
@@ -75,7 +75,7 @@ const Header = () => {
                 onMouseEnter={() => handleMouseEnter(index)}
                 onMouseLeave={handleMouseLeave}
               >
-                <button className="text-lg font-semibold hover:text-blue-500 transition">
+                <button className="text-lg font-semibold hover:text-indigo-500 transition">
                   {item.name}
                 </button>
 
@@ -91,13 +91,13 @@ const Header = () => {
                         {/* If using React Router */}
                         <Link
                           to={option.link}
-                          className="block px-4 py-2 text-white hover:text-blue-500 transition"
+                          className="block px-4 py-2 text-white hover:text-indigo-500 transition"
                         >
                           {option.label}
                         </Link>
 
                         {/* If using normal anchor tags */}
-                        {/* <a href={option.link} className="block px-4 py-2 text-white hover:text-blue-500 transition">
+                        {/* <a href={option.link} className="block px-4 py-2 text-white hover:text-indigo-500 transition">
                           {option.label}
                         </a> */}
                       </li>
