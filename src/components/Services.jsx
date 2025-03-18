@@ -3,7 +3,7 @@ import React from 'react'
 const Services = () => {
   return (
     <div className='p-5'>
-			<p className='text-center text-3xl sm:text-5xl font-bold'> What does <span className='text-blue-400'>Bit 2 Byte</span> offer to you ? </p>
+			<p className='text-center text-3xl sm:text-5xl font-bold'> What does <span className='text-blue-400'>Bit-2-Byte</span> offer to you ? </p>
 			<br />
 			<div className="sm:grid grid-cols-3 gap-8 sm:p-16">
 				<div className="my-5 p-6 bg-zinc-900 rounded-2xl text-center">

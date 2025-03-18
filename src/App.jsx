@@ -5,6 +5,8 @@ import About from './components/About'
 import MainLayout from './layout/MainLayout'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import TeamA from './components/Teams/TeamA'
+import Advisors from './components/Advisors'
+import Faculty from './components/Faculty'
 
 const appRouter = createBrowserRouter([
 	{
@@ -16,8 +18,28 @@ const appRouter = createBrowserRouter([
         element: 
           <>
             <Main />
+          </>
+      },
+      {
+        path: '/about-us',
+        element:
+          <>
             <About />
             <Services />
+          </>
+      },
+      {
+        path: '/faculty',
+        element:
+          <>
+            <Faculty />
+          </>
+      },
+      {
+        path: '/advisors',
+        element:
+          <>
+            <Advisors />
           </>
       },
       {

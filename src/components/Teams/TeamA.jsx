@@ -116,47 +116,48 @@ const teamMembers = [
 ];
 
 const TeamA = () => {
-  return (
-    <div className="p-6">
-      {/* Team Introduction */}
-      <div className="mb-8 text-center text-white">
-        <h1 className="text-5xl font-bold text-blue-500">Team of 2025</h1>
-        <p className="mt-2 p-20 text-xl text-white">
-				The Team of 2025 played a crucial role in reviving the Bit 2 Byte coding community, bringing together passionate developers, designers, and tech enthusiasts to create a space for learning, collaboration, and innovation.
-<br /><br />
-				After a brief period of inactivity, this team reignited the spirit of Bit 2 Byte by organizing coding workshops, hackathons, open-source projects, and mentorship programs. Their efforts helped build a strong network of aspiring programmers and tech leaders, making the community more active and impactful than ever.
-<br /><br />
-				With a vision to empower students and professionals in software development, AI, and web technologies, the Team of 2025 ensured that Bit 2 Byte became a thriving hub for knowledge-sharing and growth in the tech world. 
-        </p>
-      </div>
+	return (
+		<div className="p-6">
+			{/* Team Introduction */}
+			<div className="mb-8 text-center text-white">
+				<h1 className="text-5xl font-bold text-indigo-500">Team of 2025</h1>
+				<p className="mt-2 p-20 text-xl text-white tracking-wide">
+					The Team of 2025 played a crucial role in reviving the Bit 2 Byte coding community, bringing together passionate developers, designers, and tech enthusiasts to create a space for learning, collaboration, and innovation.
+					<br /><br />
+					After a brief period of inactivity, this team reignited the spirit of Bit 2 Byte by organizing coding workshops, hackathons, open-source projects, and mentorship programs. Their efforts helped build a strong network of aspiring programmers and tech leaders, making the community more active and impactful than ever.
+					<br /><br />
+					With a vision to empower students and professionals in software development, AI, and web technologies, the Team of 2025 ensured that Bit 2 Byte became a thriving hub for knowledge-sharing and growth in the tech world.
+				</p>
 
-      {/* Team Members Grid */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-        {teamMembers.map((member, index) => {
-          let borderColor = "border-gray-300";
+			</div>
 
-          if (index < 2) borderColor = "border-cyan-500";
-          else if (index >= 2 && index < 6) borderColor = "border-orange-500";
-          else if (index >= 6 && index < 8) borderColor = "border-red-500";
-          else if (index >= 8 && index < 13) borderColor = "border-blue-500";
-          else if (index >= 13) borderColor = "border-purple-500";
+			{/* Team Members Grid */}
+			<div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+				{teamMembers.map((member, index) => {
+					let borderColor = "border-gray-300";
 
-          return (
-            <div key={member.id} className="flex flex-col items-center p-4 bg-zinc-900 rounded-xl shadow-md">
-              <img
-                src={member.img}
-                alt={member.name}
-                className={`w-24 h-24 rounded-full object-cover border-4 ${borderColor}`}
-              />
-              <h2 className="mt-3 text-lg font-semibold">{member.name}</h2>
-              {/* <p className="text-sm text-gray-600">{member.department}</p> */}
-              <p className="text-sm font-medium text-white">{member.position}</p>
-            </div>
-          );
-        })}
-      </div>
-    </div>
-  );
+					if (index < 2) borderColor = "border-cyan-500";
+					else if (index >= 2 && index < 6) borderColor = "border-orange-500";
+					else if (index >= 6 && index < 8) borderColor = "border-red-500";
+					else if (index >= 8 && index < 13) borderColor = "border-indigo-500";
+					else if (index >= 13) borderColor = "border-purple-500";
+
+					return (
+						<div key={member.id} className="flex flex-col items-center p-4 bg-zinc-900 rounded-xl shadow-md">
+							<img
+								src={member.img}
+								alt={member.name}
+								className={`w-24 h-24 rounded-full object-cover border-4 ${borderColor}`}
+							/>
+							<h2 className="mt-3 text-lg font-semibold">{member.name}</h2>
+							{/* <p className="text-sm text-gray-600">{member.department}</p> */}
+							<p className="text-sm font-medium text-white">{member.position}</p>
+						</div>
+					);
+				})}
+			</div>
+		</div>
+	);
 };
 
 export default TeamA;
