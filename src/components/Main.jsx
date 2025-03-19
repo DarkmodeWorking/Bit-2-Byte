@@ -80,8 +80,12 @@ const Main = () => {
         <span>Join The Official WhatsApp Group</span>
       </a>
 
-      <div className="mt-20 sm:mt-32 w-full max-w-6xl">
-        <div className="flex sm:grid sm:grid-cols-3 gap-6 overflow-x-auto sm:overflow-visible snap-x snap-mandatory pb-4 px-4">
+     {/* Swipeable Cards on Mobile */}
+     <div className="w-full max-w-6xl mt-16">
+        <div 
+          className="flex sm:grid sm:grid-cols-3 gap-6 overflow-x-auto sm:overflow-visible snap-x snap-mandatory pb-4 px-4"
+          style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }} // Hide scrollbar for Firefox & IE/Edge
+        >
           {latestEvents.map((event, index) => (
             <div 
               key={index} 
