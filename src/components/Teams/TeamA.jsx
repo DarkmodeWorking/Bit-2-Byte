@@ -164,8 +164,8 @@ const TeamA = () => {
 					else if (index >= 2 && index < 6) borderColor = "border-orange-500";
 					else if (index >= 6 && index < 8) borderColor = "border-red-500";
 					else if (index >= 8 && index < 13) borderColor = "border-indigo-500";
-					else if (index >= 13 && index < 16) borderColor = "border-purple-500";
-					else if (index >= 16 && index < 18) borderColor = "border-green-500"
+					else if (index >= 13 && index < 17) borderColor = "border-purple-500";
+					else if (index >= 17 && index < 19) borderColor = "border-green-500"
 					else borderColor = "border-white"
 
 					return (
