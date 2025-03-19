@@ -54,7 +54,7 @@ const teamMembers = [
 		id: 8,
 		name: "Raj Kumar Singh",
 		department: "CSE 3rd Year",
-		position: "ZONE LEAD - Cloud",
+		position: "ZONE LEAD - Cloud & CP",
 		img: "https://media.licdn.com/dms/image/v2/D4D03AQGTSadTE2x4Lg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1696411025276?e=1747872000&v=beta&t=mTzYw7gRVQ14OPWPCf5wsNdwvw81ZOD-UMdk0gEjQ6w"
 	},
 	{
@@ -112,7 +112,7 @@ const teamMembers = [
 		id: 16,
 		name: "Unnati Narayan",
 		department: "CSE 3rd Year",
-		position: "HEAD - Content Making",
+		position: "HEAD - Videography",
 		img: "https://media.licdn.com/dms/image/v2/D5603AQGCbD0ca7ZYJw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1706810391948?e=1747872000&v=beta&t=NlKXRHlDG_19AoNkS3iksPKhPw-BbQ65OWuvApBhLg4"
 	},
 	{
@@ -141,7 +141,7 @@ const TeamA = () => {
 			{/* Team Introduction */}
 			<div className="mb-8 text-center text-white">
 				<h1 className="text-5xl font-bold text-indigo-500">Team of 2025</h1>
-				<p className="mt-2 p-20 text-xl text-white tracking-wide">
+				<p className="mt-2 pt-7 sm:p-20 text-sm sm:text-xl text-white tracking-wide">
 					The Team of 2025 played a crucial role in reviving the Bit 2 Byte coding community, bringing together passionate developers, designers, and tech enthusiasts to create a space for learning, collaboration, and innovation.
 					<br /><br />
 					After a brief period of inactivity, this team reignited the spirit of Bit 2 Byte by organizing coding workshops, hackathons, open-source projects, and mentorship programs. Their efforts helped build a strong network of aspiring programmers and tech leaders, making the community more active and impactful than ever.
@@ -152,14 +152,14 @@ const TeamA = () => {
 			</div>
 
 			{/* Team Members Grid */}
-			<div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+			<div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
 				{teamMembers.map((member, index) => {
 					let borderColor = "border-gray-300";
 
 					if (index < 2) borderColor = "border-cyan-500";
 					else if (index >= 2 && index < 6) borderColor = "border-orange-500";
 					else if (index >= 6 && index < 7) borderColor = "border-red-500";
-					else if (index >= 7 && index < 13) borderColor = "border-indigo-500";
+					else if (index >= 7 && index < 13) borderColor = "border-blue-500";
 					else if (index >= 13 && index < 16) borderColor = "border-purple-500";
 					else if (index >= 16 && index < 18) borderColor = "border-green-500"
 					else borderColor = "border-white"
@@ -171,9 +171,9 @@ const TeamA = () => {
 								alt={member.name}
 								className={`w-24 h-24 rounded-full object-cover border-4 ${borderColor}`}
 							/>
-							<h2 className="mt-3 text-lg font-semibold">{member.name}</h2>
+							<h2 className="mt-3 text-[12px] sm:text-lg font-semibold">{member.name}</h2>
 							{/* <p className="text-sm text-gray-600">{member.department}</p> */}
-							<p className="text-sm font-medium text-white">{member.position}</p>
+							<p className="text-[10px] sm:text-sm font-medium text-white">{member.position}</p>
 						</div>
 					);
 				})}

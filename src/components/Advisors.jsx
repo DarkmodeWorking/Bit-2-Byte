@@ -51,7 +51,7 @@ const teamMembers = [
     // },
     {
         id: 9,
-        name: "Ishanjit Mukhyopadhay",
+        name: "Ishanjit Mukhopadhyay",
         department: "Batch of 2025",
         img: "https://media.licdn.com/dms/image/v2/D5603AQFw4Zsd__CKaw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1722106951643?e=1747872000&v=beta&t=Uohsk98WddxnQhlPcFu1P-yqmAM276lUKHXmfgwu7_E",
     },
@@ -68,8 +68,8 @@ const Advisors = () => {
         <div className="p-6">
             {/* Team Introduction */}
             <div className="mb-8 text-center text-white">
-                <h1 className="text-5xl font-bold text-indigo-500">Hall of Fame - Advisors</h1>
-                <p className="mt-2 p-20 text-xl text-white tracking-wide">
+                <h1 className="text-5xl font-bold text-indigo-500">Hall of Fame</h1>
+                <p className="mt-2 pt-7 sm:p-20 text-sm sm:text-xl text-white tracking-wide">
                     The Advisors of Bit-2-Byte have been the guiding force behind the community, shaping its vision, mentoring students, and ensuring its continuous growth. Their dedication and expertise laid the foundation for innovation, collaboration, and excellence in the tech domain.
                     <br /><br />
                     As the pillars of Bit-2-Byte, these esteemed individuals provided invaluable guidance, helping students navigate the ever-evolving world of software development, AI, and emerging technologies. Through their mentorship, they cultivated a culture of curiosity, problem-solving, and teamwork.
@@ -80,26 +80,26 @@ const Advisors = () => {
 
 
             {/* Team Members Grid */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-                {teamMembers.map((member, index) => {
-                    let borderColor = "border-gray-500";
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
+				{teamMembers.map((member, index) => {
+					let borderColor = "border-gray-300";
 
+		
 
-
-                    return (
-                        <div key={member.id} className="flex flex-col items-center p-4 bg-zinc-900 rounded-xl shadow-md">
-                            <img
-                                src={member.img}
-                                alt={member.name}
-                                className={`w-24 h-24 rounded-full object-cover border-4 ${borderColor}`}
-                            />
-                            <h2 className="mt-3 text-lg font-semibold">{member.name}</h2>
-                            <p className="text-sm font-medium text-white">{member.department}</p>
-                            {/* <p className="text-sm font-medium text-white">{member.position}</p> */}
-                        </div>
-                    );
-                })}
-            </div>
+					return (
+						<div key={member.id} className="flex flex-col items-center p-4 bg-zinc-900 rounded-xl shadow-md">
+							<img
+								src={member.img}
+								alt={member.name}
+								className={`w-24 h-24 rounded-full object-cover border-4 ${borderColor}`}
+							/>
+							<h2 className="mt-3 text-[11px] sm:text-lg font-semibold">{member.name}</h2>
+							{/* <p className="text-sm text-gray-600">{member.department}</p> */}
+							<p className="text-[10px] sm:text-sm font-medium text-white">{member.department}</p>
+						</div>
+					);
+				})}
+			</div>
         </div>
     );
 };
