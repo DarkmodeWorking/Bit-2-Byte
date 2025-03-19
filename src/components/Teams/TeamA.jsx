@@ -112,6 +112,30 @@ const teamMembers = [
 		department: "CSE 3rd Year",
 		position: "HEAD - Content Making",
 		img: "https://media.licdn.com/dms/image/v2/D5603AQGCbD0ca7ZYJw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1706810391948?e=1747872000&v=beta&t=NlKXRHlDG_19AoNkS3iksPKhPw-BbQ65OWuvApBhLg4"
+	},
+	{
+		id: 17,
+		name: "Anurag Ghosh",
+		position: "HEAD - Designing",
+		img: "https://media.licdn.com/dms/image/v2/D5603AQHJA1eDatL-iQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1689862415826?e=1747872000&v=beta&t=RTLvTAzLJ4FCw8JRuCC-hFnWaUfBn2yVIG_XmdQnI_o"
+	},
+	{
+		id: 18,
+		name: "Abir Mitra",
+		position: "SPOC",
+		img: "https://media.licdn.com/dms/image/v2/D5603AQFY3HeUgwK-XA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1709358117355?e=1747872000&v=beta&t=VDNjkZH7hVZQRiKwkhLUGNlxI1cEYNLCuSF48RNxxZk"
+	},
+	{
+		id: 19,
+		name: "Jeshmita Chatterjee",
+		position: "SPOC",
+		img: "https://media.licdn.com/dms/image/v2/D4D35AQHKJXHIF0J-yg/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1722066237167?e=1742986800&v=beta&t=mllPGEnTlKfTah4TUrTfMi8LK_R9e9ItnuBRqgIo40s"
+	},
+	{
+		id: 20,
+		name: "Ujan Ghosh",
+		position: "Cyber Club Associate",
+		img: "https://media.licdn.com/dms/image/v2/D4D03AQGDWm-5YYHA5Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1688364893483?e=1747872000&v=beta&t=19R_KsW0x5id26HA0OBfNgP6nhtmsE4bjI_cSWHld0s"
 	}
 ];
 
@@ -140,7 +164,9 @@ const TeamA = () => {
 					else if (index >= 2 && index < 6) borderColor = "border-orange-500";
 					else if (index >= 6 && index < 8) borderColor = "border-red-500";
 					else if (index >= 8 && index < 13) borderColor = "border-indigo-500";
-					else if (index >= 13) borderColor = "border-purple-500";
+					else if (index >= 13 && index < 16) borderColor = "border-purple-500";
+					else if (index >= 16 && index < 18) borderColor = "border-green-500"
+					else borderColor = "border-white"
 
 					return (
 						<div key={member.id} className="flex flex-col items-center p-4 bg-zinc-900 rounded-xl shadow-md">

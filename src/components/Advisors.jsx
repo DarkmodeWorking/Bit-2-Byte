@@ -21,28 +21,46 @@ const teamMembers = [
     },
     {
         id: 4,
+        name: "Prithviraj Biswas",
+        department: "Batch of 2022",
+        img: "https://media.licdn.com/dms/image/v2/D5635AQFfpLDEOFiyiQ/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1713251454161?e=1742986800&v=beta&t=4WXHJiMztGTr_7DTHkTehpPsjnbuTCLt_7SBfirZ4DM"
+    },
+    {
+        id: 5,
         name: "Abir Ganguly",
         department: "Batch of 2024",
         img: "https://media.licdn.com/dms/image/v2/D4D03AQGnftXQE4reyQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1727411652299?e=1747872000&v=beta&t=LkJPc2mxe2pPIz4Oou2c19cf12Yriqxs2aJitzatJGA",
     },
     {
-        id: 5,
+        id: 6,
         name: "Adarsh Pandey",
         department: "Batch of 2024",
         img: "https://media.licdn.com/dms/image/v2/D4D03AQEprs86gCZlIA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1715879857986?e=1747872000&v=beta&t=ljFQgTlLM-PxSofJNjH8ErhnRrsIyMtSudSRAmy4l58",
     },
     {
-        id: 6,
+        id: 7,
         name: "Rajib Lochan Nandi",
         department: "Batch of 2024",
         img: "https://media.licdn.com/dms/image/v2/D5635AQEVg6_97JMp7g/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1736971329146?e=1742929200&v=beta&t=JdoGda_nEKmdL0nLh-XhaZ829qfFHbaz15dgg0U2oA0",
     },
+    // {
+    //     id: 8,
+    //     name: "Arnab Das",
+    //     department: "Batch of 2025",
+    //     img: "https://media.licdn.com/dms/image/v2/D5635AQFT54uiuQb7gg/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1730222896998?e=1742986800&v=beta&t=AHUICTluK4R3hhLB7qZwp1FiRgzN1mO0NxRlMgNGgp4"
+    // },
     {
-        id: 7,
+        id: 9,
         name: "Ishanjit Mukhyopadhay",
         department: "Batch of 2025",
         img: "https://media.licdn.com/dms/image/v2/D5603AQFw4Zsd__CKaw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1722106951643?e=1747872000&v=beta&t=Uohsk98WddxnQhlPcFu1P-yqmAM276lUKHXmfgwu7_E",
     },
+    // {
+    //     id: 10,
+    //     name: "Rajarshi Bhattacharya",
+    //     department: "Batch of 2025",
+    //     img: "https://media.licdn.com/dms/image/v2/D5635AQEXASlbAK3Z5Q/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1736006384895?e=1742986800&v=beta&t=NPM9yrc2WhOKqCRxxgMU3O1o6isuhabBvd9rKVn8xak"
+    // }
 ];
 
 const Advisors = () => {
