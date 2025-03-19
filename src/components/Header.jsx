@@ -26,6 +26,7 @@ const menuItems = [
       { label: "Forum", link: "/community/forum" },
       { label: "Resources", link: "/community/resources" },
       { label: "Support", link: "/community/support" },
+      { label: "Discord", link: "/discord" },
     ],
   },
   {
@@ -33,7 +34,6 @@ const menuItems = [
     dropdown: [
       { label: "Achievements", link: "/achievements" },
       { label: "Endorsements", link: "/endorsements" },
-      { label: "Discord", link: "/discord" },
     ],
   },
 ];

@@ -7,6 +7,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import TeamA from './components/Teams/TeamA'
 import Advisors from './components/Advisors'
 import Faculty from './components/Faculty'
+import Discord from './components/Discord'
 
 const appRouter = createBrowserRouter([
 	{
@@ -48,6 +49,13 @@ const appRouter = createBrowserRouter([
          <>
           <TeamA />
          </>
+      },
+      {
+        path: '/discord',
+        element:
+          <>
+            <Discord />
+          </>
       }
     ]
 	}
