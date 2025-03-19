@@ -52,18 +52,19 @@ const teamMembers = [
 	},
 	{
 		id: 8,
-		name: 'Sudipta Sen',
-		department: 'CSE 3rd Year',
-		position: "DEV TEAM - Co Lead",
-		img: "https://media.licdn.com/dms/image/v2/D5603AQEFwBTjwhIa2g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1670473804351?e=1747872000&v=beta&t=AGxhF-23ISkal4DeCjCXxMWmj6Yey5Ug_59LGE20SUw"
+		name: "Raj Kumar Singh",
+		department: "CSE 3rd Year",
+		position: "ZONE LEAD - Cloud",
+		img: "https://media.licdn.com/dms/image/v2/D4D03AQGTSadTE2x4Lg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1696411025276?e=1747872000&v=beta&t=mTzYw7gRVQ14OPWPCf5wsNdwvw81ZOD-UMdk0gEjQ6w"
 	},
 	{
 		id: 9,
-		name: "Mukta Das",
+		name: "Diprit Turul",
 		department: "CSE 3rd Year",
-		position: "ZONE LEAD - Web",
-		img: "https://media.licdn.com/dms/image/v2/D5603AQF4aiZBury7hQ/profile-displayphoto-shrink_800_800/B56ZNkoqfAGwAc-/0/1732560202752?e=1747872000&v=beta&t=7ey8RzLImK7SSEhGzHvzIVhjqkiO1bWm6_7sXJHFOTw"
+		position: "ZONE LEAD - Cyber ",
+		img: "https://media.licdn.com/dms/image/v2/D4E03AQFyYqwY6ua4LQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729180547241?e=1747872000&v=beta&t=AziItol1iLdM2q4DOQDd7tWrrYjbjaC6ZAyxz5faM5k"
 	},
+
 	{
 		id: 10,
 		name: "Nilagrib Ray",
@@ -73,24 +74,25 @@ const teamMembers = [
 	},
 	{
 		id: 11,
-		name: "Raj Kumar Singh",
-		department: "CSE 3rd Year",
-		position: "ZONE LEAD - Cloud",
-		img: "https://media.licdn.com/dms/image/v2/D4D03AQGTSadTE2x4Lg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1696411025276?e=1747872000&v=beta&t=mTzYw7gRVQ14OPWPCf5wsNdwvw81ZOD-UMdk0gEjQ6w"
+		name: 'Sudipta Sen',
+		department: 'CSE 3rd Year',
+		position: "ZONE LEAD - AI/ML",
+		img: "https://media.licdn.com/dms/image/v2/D5603AQEFwBTjwhIa2g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1670473804351?e=1747872000&v=beta&t=AGxhF-23ISkal4DeCjCXxMWmj6Yey5Ug_59LGE20SUw"
 	},
+
 	{
 		id: 12,
+		name: "Mukta Das",
+		department: "CSE 3rd Year",
+		position: "ZONE LEAD - Web",
+		img: "https://media.licdn.com/dms/image/v2/D5603AQF4aiZBury7hQ/profile-displayphoto-shrink_800_800/B56ZNkoqfAGwAc-/0/1732560202752?e=1747872000&v=beta&t=7ey8RzLImK7SSEhGzHvzIVhjqkiO1bWm6_7sXJHFOTw"
+	},
+	{
+		id: 13,
 		name: "Soubhagya Das",
 		department: "CSE 3rd Year",
 		position: "ZONE LEAD - Web 3.0",
 		img: "https://media.licdn.com/dms/image/v2/D5603AQF-8bj6RjyNMw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726592805581?e=1747872000&v=beta&t=_8I-cEODnO1Mx8MGmFW6UAB3G6HP8nq8k07Mb9EmxlY"
-	},
-	{
-		id: 13,
-		name: "Diprit Turul",
-		department: "CSE 3rd Year",
-		position: "ZONE LEAD - Cyber ",
-		img: "https://media.licdn.com/dms/image/v2/D4E03AQFyYqwY6ua4LQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729180547241?e=1747872000&v=beta&t=AziItol1iLdM2q4DOQDd7tWrrYjbjaC6ZAyxz5faM5k"
 	},
 	{
 		id: 14,
@@ -156,10 +158,10 @@ const TeamA = () => {
 
 					if (index < 2) borderColor = "border-cyan-500";
 					else if (index >= 2 && index < 6) borderColor = "border-orange-500";
-					else if (index >= 6 && index < 8) borderColor = "border-red-500";
-					else if (index >= 8 && index < 13) borderColor = "border-indigo-500";
-					else if (index >= 13 && index < 17) borderColor = "border-purple-500";
-					else if (index >= 17 && index < 19) borderColor = "border-green-500"
+					else if (index >= 6 && index < 7) borderColor = "border-red-500";
+					else if (index >= 7 && index < 13) borderColor = "border-indigo-500";
+					else if (index >= 13 && index < 16) borderColor = "border-purple-500";
+					else if (index >= 16 && index < 18) borderColor = "border-green-500"
 					else borderColor = "border-white"
 
 					return (
