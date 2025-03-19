@@ -37,7 +37,7 @@ const latestEvents = [
 
 const Main = () => {
   return (
-    <div className="flex flex-col items-center justify-center mt-40 sm:mt-20 relative px-6">
+    <div className="flex flex-col items-center justify-center mt-32 sm:mt-20 relative px-6">
       {/* Main Image */}
       <img src="main.png" className="h-48 sm:h-96 my-32 sm:my-0 mb-72 sm:mb-28" alt="Main" />
 
