@@ -20,8 +20,8 @@ const Faculty = () => {
         <div className="p-6">
             {/* Team Introduction */}
             <div className="mb-8 text-center text-white">
-                <h1 className="text-5xl font-bold text-indigo-500">Faculty Co-ordinators</h1>
-                <p className="mt-2 p-20 text-xl text-white tracking-wide">
+                <h1 className="text-5xl font-bold text-indigo-500">Faculty <br /> Co-ordinators</h1>
+                <p className="mt-2 pt-7 sm:p-20 text-sm sm:text-xl text-white tracking-wide">
                     The Faculty Members of Bit-2-Byte have been the backbone of the community, offering guidance, technical expertise, and unwavering support to help students excel in the world of technology. Their encouragement has played a crucial role in fostering a culture of learning and innovation.
                     <br /><br />
                     These dedicated professors have mentored students in software development, AI, cybersecurity, web technologies, and open-source contributions, ensuring that knowledge is shared effectively and practically. Their insights have helped bridge the gap between academics and industry, preparing students for real-world challenges.
@@ -33,7 +33,7 @@ const Faculty = () => {
 
 
             {/* Team Members Grid */}
-            <div className="grid grid-cols-2 gap-6">
+            <div className="grid sm:grid-cols-2 gap-6">
                 {teamMembers.map((member, index) => {
                     let borderColor = "border-indigo-500";
 

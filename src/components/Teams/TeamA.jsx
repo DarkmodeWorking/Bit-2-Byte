@@ -98,7 +98,7 @@ const teamMembers = [
 		id: 14,
 		name: "Aiswariya Das",
 		department: "CSE 3rd Year",
-		position: "HEAD - Social Posts",
+		position: "HEAD - Social Handles",
 		img: "https://media.licdn.com/dms/image/v2/D5603AQGRN9BuTBTkgA/profile-displayphoto-shrink_800_800/B56ZUPqZSQHEAc-/0/1739724527228?e=1747872000&v=beta&t=QeeGl2D0-0qeG98eGNAshIDRgbeoo0jGulfsfqrfM7g"
 	},
 	{

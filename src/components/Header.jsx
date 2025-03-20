@@ -23,9 +23,9 @@ const menuItems = [
   {
     name: "Community",
     dropdown: [
-      { label: "Forum", link: "/community/forum" },
-      { label: "Resources", link: "/community/resources" },
-      { label: "Support", link: "/community/support" },
+      { label: "Github", link: "/github" },
+      { label: "Stack Overflow", link: "/stack-overflow" },
+      { label: "Kaggle", link: "/kaggle" },
       { label: "Discord", link: "/discord" },
     ],
   },
