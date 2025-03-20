@@ -58,18 +58,7 @@ const Main = () => {
           </div>
         ))}
       </div>
-      <a
-        href='https://chat.whatsapp.com/FqKO8sNUKsPB8IUfe6lIb2'
-        target='_blank'
-        rel='noopener noreferrer'
-        className='relative mt-10 px-6 py-3 flex items-center space-x-2 bg-green-500 text-white sm:text-lg font-semibold 
-        rounded-lg shadow-lg hover:bg-green-600 transition duration-300'
-      >
-        <div className='absolute -inset-2 rounded-full bg-green-500 opacity-75 blur-xl animate-pulse -z-10'></div>
-        <FaWhatsapp className='text-2xl' />
-        <span>Join The Official WhatsApp Group</span>
-      </a>
-      <h1 className='text-3xl sm:text-5xl text-indigo-500 font-bold mt-20 my-5'>Latest Webinars</h1>
+      <h1 className='text-3xl sm:text-5xl text-indigo-500 font-bold my-5'>Latest Webinars</h1>
       <div className='w-full max-w-6xl mt-16'>
         <div
           className='flex sm:grid sm:grid-cols-3 gap-6 overflow-x-auto sm:overflow-visible snap-x snap-mandatory pb-4 px-4'
@@ -91,6 +80,17 @@ const Main = () => {
           ))}
         </div>
       </div>
+      <a
+        href='https://chat.whatsapp.com/FqKO8sNUKsPB8IUfe6lIb2'
+        target='_blank'
+        rel='noopener noreferrer'
+        className='relative my-28 px-6 py-3 flex items-center space-x-2 bg-green-500 text-white sm:text-lg font-semibold 
+        rounded-lg shadow-lg hover:bg-green-600 transition duration-300'
+      >
+        <div className='absolute -inset-2 rounded-full bg-green-500 opacity-75 blur-xl animate-pulse -z-10'></div>
+        <FaWhatsapp className='text-2xl' />
+        <span>Join The Official WhatsApp Group</span>
+      </a>
     </div>
   )
 }
