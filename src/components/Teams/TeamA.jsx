@@ -34,7 +34,7 @@ const teamMembers = [
 		name: 'Zishan Khan Chowdhury',
 		department: "CSE 3rd Year",
 		position: "ADMIN - Public Relations",
-		img: "https://media.licdn.com/dms/image/v2/D5603AQE4h9isLASABg/profile-displayphoto-shrink_800_800/B56ZS3eECsGoAc-/0/1738244900212?e=1747872000&v=beta&t=Wn8wYC6LtNbu3jf6XMkQS2RX9FZ93mUYwR5B4C7mNnQ"
+		img: "https://media.licdn.com/dms/image/v2/D5603AQErNq7WwL69hA/profile-displayphoto-shrink_800_800/B56ZW7ENqVGoAc-/0/1742600204280?e=1748476800&v=beta&t=M7nmGKpCQWdYm6OeXLahB_rzCgRMgTK2C8KkCu83fT8"
 	},
 	{
 		id: 6,
