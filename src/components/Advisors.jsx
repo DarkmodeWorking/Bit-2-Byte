@@ -51,7 +51,7 @@ const teamMembers = [
 		id: 7,
 		name: "Rajib Lochan Nandi",
 		department: "Batch of 2024",
-		img: "https://media.licdn.com/dms/image/v2/D5635AQEVg6_97JMp7g/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1736971329146?e=1742929200&v=beta&t=JdoGda_nEKmdL0nLh-XhaZ829qfFHbaz15dgg0U2oA0",
+		img: "https://media.licdn.com/dms/image/v2/D5603AQGDDW_42M_XjQ/profile-displayphoto-shrink_400_400/B56ZRrjxKPHsAo-/0/1736971327175?e=1748476800&v=beta&t=AOTiSevog3RiYAth0pBupLSh3-jA_qquc7OD0SMn5OM",
 		company: "TCS",
 		companyLogo: "https://media.licdn.com/dms/image/v2/D4D0BAQGsGR9p4ikS5w/company-logo_200_200/company-logo_200_200/0/1708946550425/tata_consultancy_services_logo?e=1747872000&v=beta&t=mbNtPTZdlBp8YRzuG0xFfNsrVRjv_IFSJFWf71a3Biw"
 	},
