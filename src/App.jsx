@@ -10,6 +10,7 @@ import Faculty from './components/Faculty'
 import Discord from './components/Discord'
 import Endorsement from './components/Endorsement'
 import UnderDevelopment from './components/UnderDevelopment'
+import Maintainers from './components/Maintainers'
 
 const appRouter = createBrowserRouter([
 	{
@@ -119,7 +120,7 @@ const appRouter = createBrowserRouter([
         path: '/maintainers',
         element:
           <>
-            <UnderDevelopment />
+            <Maintainers />
           </>
       },
       {
