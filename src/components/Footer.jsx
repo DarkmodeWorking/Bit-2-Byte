@@ -34,10 +34,10 @@ const Footer = () => {
 
       {/* Navigation Links */}
       <div className="flex flex-wrap justify-center space-x-6 sm:space-x-10 text-sm sm:text-base">
-        <a href="/about-us" className="hover:text-indigo-500 transition">About</a>
-        <a href="/events" className="hover:text-indigo-500 transition">Events</a>
-        <a href="/community" className="hover:text-indigo-500 transition">Community</a>
-        <a href="/archives" className="hover:text-indigo-500 transition">Archives</a>
+        <a href="/maintainers" className="hover:text-indigo-500 transition">Maintainers</a>
+        <a href="/open-source" className="hover:text-indigo-500 transition">Open Source</a>
+        <a href="/activities" className="hover:text-indigo-500 transition">Activities</a>
+        <a href="/documents" className="hover:text-indigo-500 transition">Documents</a>
         <a href="/contact" className="hover:text-indigo-500 transition">Contact</a>
       </div>
 

@@ -15,9 +15,9 @@ const menuItems = [
   {
     name: "Events",
     dropdown: [
-      { label: "Upcoming Events", link: "/events/upcoming" },
-      { label: "Past Events", link: "/events/past" },
-      { label: "Get Involved", link: "/events/involved" },
+      { label: "Upcoming Events", link: "/upcoming-events" },
+      { label: "Past Events", link: "/past-events" },
+      { label: "Get Involved", link: "/involved" },
     ],
   },
   {
