@@ -8,6 +8,7 @@ import TeamA from './components/Teams/TeamA'
 import Advisors from './components/Advisors'
 import Faculty from './components/Faculty'
 import Discord from './components/Discord'
+import Endorsement from './components/Endorsement'
 
 const appRouter = createBrowserRouter([
 	{
@@ -55,6 +56,13 @@ const appRouter = createBrowserRouter([
         element:
           <>
             <Discord />
+          </>
+      },
+      {
+        path: '/endorsements',
+        element:
+          <>
+            <Endorsement />
           </>
       }
     ]
