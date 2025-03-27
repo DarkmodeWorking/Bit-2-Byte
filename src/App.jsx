@@ -9,6 +9,7 @@ import Advisors from './components/Advisors'
 import Faculty from './components/Faculty'
 import Discord from './components/Discord'
 import Endorsement from './components/Endorsement'
+import UnderDevelopment from './components/UnderDevelopment'
 
 const appRouter = createBrowserRouter([
 	{
@@ -52,10 +53,59 @@ const appRouter = createBrowserRouter([
          </>
       },
       {
+        path: '/upcoming-events',
+        element:
+          <>
+            <UnderDevelopment />
+          </>
+      },
+      {
+        path: '/past-events',
+        element:
+          <>
+            <UnderDevelopment />
+          </>
+      },
+      {
+        path: '/involved',
+        element:
+          <>
+            <UnderDevelopment />
+          </>
+      },
+      {
+        path: '/github',
+        element:
+          <>
+            <UnderDevelopment />
+          </>
+      },
+      {
+        path: '/stack-overflow',
+        element:
+          <>
+            <UnderDevelopment />
+          </>
+      },
+      {
+        path: '/kaggle',
+        element:
+          <>
+            <UnderDevelopment />
+          </>
+      },
+      {
         path: '/discord',
         element:
           <>
             <Discord />
+          </>
+      },
+      {
+        path: '/achievements',
+        element:
+          <>
+            <UnderDevelopment />
           </>
       },
       {
@@ -64,7 +114,42 @@ const appRouter = createBrowserRouter([
           <>
             <Endorsement />
           </>
-      }
+      },
+      {
+        path: '/maintainers',
+        element:
+          <>
+            <UnderDevelopment />
+          </>
+      },
+      {
+        path: '/open-source',
+        element:
+          <>
+            <UnderDevelopment />
+          </>
+      },
+      {
+        path: '/activities',
+        element:
+          <>
+            <UnderDevelopment />
+          </>
+      },
+      {
+        path: '/documents',
+        element:
+          <>
+            <UnderDevelopment />
+          </>
+      },
+      {
+        path: '/contact',
+        element:
+          <>
+            <UnderDevelopment />
+          </>
+      },
     ]
 	}
 ])
