@@ -6,7 +6,7 @@ const teamMembers = [
 		name: 'Anurag Bhattacharjee',
 		department: 'CSE 3rd Year',
 		position: 'PRIME - Executions',
-		img: 'https://media.licdn.com/dms/image/v2/D5603AQEcbWdlHkDA1g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1724012812652?e=1747872000&v=beta&t=3wElvIjHR_frK0op6VUWp0T9XjB-D3dNw3_DUZsA7wA',
+		img: 'https://media.licdn.com/dms/image/v2/D5603AQFpcBlZOTRjtg/profile-displayphoto-shrink_400_400/B56ZXeO30eGcAg-/0/1743190196690?e=1748476800&v=beta&t=c4e0S8Bj1-VOJhcG0y2LWyh0HsaddgrXnVjEGHjEI28',
 	},
 	{
 		id: 2,
@@ -20,14 +20,14 @@ const teamMembers = [
 		name: 'Sandip Dey',
 		department: 'CSE 3rd Year',
 		position: 'ADMIN - Social Media',
-		img: 'https://media.licdn.com/dms/image/v2/D5635AQGzDbt2XIE5pA/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1728008149141?e=1742918400&v=beta&t=_mbby-BXyXREBE5CaytXC57OMUsFwx_09I6Pw4s6Oo8',
+		img: 'https://media.licdn.com/dms/image/v2/D5635AQGzDbt2XIE5pA/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1728008149141?e=1743796800&v=beta&t=UPRCL-kI0JIOjNvpqJszNLQ65MTNoIPVlj-ATGb1c6c',
 	},
 	{
 		id: 4,
 		name: 'Aniket Das',
 		department: 'CSE 3rd Year',
 		position: 'ADMIN - Events',
-		img: 'https://media.licdn.com/dms/image/v2/D4D35AQHjKkZV9AfIOg/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1729068796110?e=1742918400&v=beta&t=WTYoFZkjLQy1fB2W2WlXV6KPklsOcfIxDWywQK2CKaE',
+		img: 'https://media.licdn.com/dms/image/v2/D4D35AQHjKkZV9AfIOg/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1729068796110?e=1743796800&v=beta&t=DfzwHSyePLy4q_Y0rTOjM27SYm23tHTjjDL4hM1hbik',
 	},
 	{
 		id: 5,
@@ -125,7 +125,7 @@ const teamMembers = [
 		id: 18,
 		name: 'Jeshmita Chatterjee',
 		position: 'SPOC',
-		img: 'https://media.licdn.com/dms/image/v2/D4D35AQHKJXHIF0J-yg/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1722066237167?e=1742986800&v=beta&t=mllPGEnTlKfTah4TUrTfMi8LK_R9e9ItnuBRqgIo40s'
+		img: 'https://media.licdn.com/dms/image/v2/D4D35AQHKJXHIF0J-yg/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1722066237167?e=1743796800&v=beta&t=sQ_W8nS0dkMGTac5_mZ5npWBSey0Fa2oXGv1fnIyFtY'
 	},
 	{
 		id: 19,
@@ -142,7 +142,7 @@ const TeamA = () => {
 				<h1 className='text-5xl font-bold text-indigo-500'>Team of 2025</h1>
 				<p className='mt-2 py-16 sm:px-40 text-sm sm:text-2xl text-white tracking-wide'>
 					The Team of 2025 played a crucial role in reviving the Bit-2-Byte coding community, bringing together passionate developers, designers, and tech enthusiasts to create a space for learning, collaboration, and innovation.
-					After a brief period of inactivity, this team reignited the spirit of Bit-2-Byte by organizing coding workshops, hackathons, open-source projects, and mentorship programs.
+					After a brief period of inactivity, this team reignited the spirit of Bit-2-Byte by organizing coding workshops and mentorship programs.
 				</p>
 			</div>
 			<div className='grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6'>
@@ -162,8 +162,8 @@ const TeamA = () => {
 								alt={member.name}
 								className={`w-24 h-24 rounded-full object-cover border-4 ${borderColor}`}
 							/>
-							<h2 className='mt-3 text-[12px] sm:text-lg font-semibold'>{member.name}</h2>
-							<p className='text-[10px] sm:text-sm font-medium text-white'>{member.position}</p>
+							<h2 className='mt-3 text-[10px] sm:text-lg font-semibold'>{member.name}</h2>
+							<p className='text-[8px] sm:text-sm font-medium text-white'>{member.position}</p>
 						</div>
 					)
 				})}

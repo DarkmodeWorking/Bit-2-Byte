@@ -27,7 +27,7 @@ const teamMembers = [
 		id: 4,
 		name: 'Prithviraj Biswas',
 		department: 'Batch of 2022',
-		img: 'https://media.licdn.com/dms/image/v2/D5635AQFfpLDEOFiyiQ/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1713251454161?e=1742986800&v=beta&t=4WXHJiMztGTr_7DTHkTehpPsjnbuTCLt_7SBfirZ4DM',
+		img: 'https://media.licdn.com/dms/image/v2/D5635AQFfpLDEOFiyiQ/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1713251454161?e=1743793200&v=beta&t=7KDCv3Jfog29d30sIYMx399E98moC2DR21RhFckGyGA',
 		company: 'Accenture',
 		companyLogo: 'https://media.licdn.com/dms/image/v2/D4E0BAQHDbmrSIZ2UdA/company-logo_200_200/company-logo_200_200/0/1723130689960/accenture_logo?e=1747872000&v=beta&t=If7YcuxJjwqxCx6TGkiIoeRlZh-U5C0oY2SMYtq69bs'
 	},
@@ -96,8 +96,8 @@ const Advisors = () => {
 								alt={member.name}
 								className={`w-24 h-24 rounded-full object-cover border-4 ${borderColor}`}
 							/>
-							<h2 className='mt-3 text-[11px] sm:text-lg font-semibold'>{member.name}</h2>
-							<p className='text-[10px] sm:text-sm font-medium text-white'>{member.department}</p>
+							<h2 className='mt-3 text-[10px] sm:text-lg font-semibold'>{member.name}</h2>
+							<p className='text-[8px] sm:text-sm font-medium text-white'>{member.department}</p>
 							<div className='flex items-center gap-2 mt-2'>
 								<img
 									src={member.companyLogo}

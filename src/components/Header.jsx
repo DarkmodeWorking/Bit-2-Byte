@@ -6,7 +6,7 @@ const menuItems = [
   {
     name: 'People',
     dropdown: [
-      { label: 'Vision', link: '/about-us' },
+      // { label: 'Vision', link: '/about-us' },
       { label: 'Faculty', link: '/faculty' },
       { label: 'Advisors', link: '/advisors' },
       // { label: 'Project Fireship', link: '/fireships' },

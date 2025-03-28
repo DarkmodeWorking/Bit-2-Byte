@@ -35,7 +35,7 @@ const Faculty = () => {
 								className={`w-24 h-24 rounded-full object-cover border-4 ${borderColor}`}
 							/>
 							<h2 className='mt-3 text-lg font-semibold'>{member.name}</h2>
-							<p className='text-sm font-medium text-white'>{member.department}</p>
+							<p className='text-xs font-medium text-white'>{member.department}</p>
 						</div>
 					)
 				})}

@@ -9,7 +9,7 @@ const Discord = () => {
       </h1>
       <p className='text-lg m-5 sm:text-2xl text-gray-300 max-w-2xl'>
         Connect with fellow developers, participate in coding discussions, get mentorship, and stay updated on all events.
-        Whether you&aposre a beginner or a pro, our collaborative community is here to help you learn, grow, and innovate together!
+        Whether you&apos;re a beginner or a pro, our collaborative community is here to help you learn, grow, and innovate together!
       </p>
       <a
         href='https://discord.gg/your-server-link'

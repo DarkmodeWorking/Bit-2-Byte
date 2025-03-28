@@ -30,7 +30,7 @@ const Endorsement = () => {
 			</div>
 			<div className='grid grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6'>
 				{teamMembers.map((member, index) => {
-					let borderColor = 'border-white'
+					let borderColor = 'border-yellow-500'
 					return (
 						<div key={member.id} className='flex flex-col items-center p-4 bg-zinc-900 rounded-xl shadow-md'>
 							<img
@@ -38,8 +38,8 @@ const Endorsement = () => {
 								alt={member.name}
 								className={`w-24 h-24 rounded-full object-cover border-4 ${borderColor}`}
 							/>
-							<h2 className='mt-3 text-[11px] sm:text-lg font-semibold'>{member.name}</h2>
-							<p className='text-[10px] sm:text-sm font-medium text-white'>{member.department}</p>
+							<h2 className='mt-3 text-[9px] sm:text-lg font-semibold'>{member.name}</h2>
+							<p className='text-[8px] sm:text-sm font-medium text-white'>{member.department}</p>
 							<div className='flex items-center gap-2 mt-2'>
 								<img
 									src={member.companyLogo}
