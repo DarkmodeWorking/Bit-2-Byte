@@ -40,20 +40,20 @@ const appRouter = createBrowserRouter([
             <Faculty />
           </>
       },
-      // {
-      //   path: '/advisors',
-      //   element:
-      //     <>
-      //       <Advisors />
-      //     </>
-      // },
       {
-        path: '/fireships',
+        path: '/advisors',
         element:
           <>
-            <Fireships />
+            <Advisors />
           </>
       },
+      // {
+      //   path: '/fireships',
+      //   element:
+      //     <>
+      //       <Fireships />
+      //     </>
+      // },
       {
         path: '/team-2025',
         element:
