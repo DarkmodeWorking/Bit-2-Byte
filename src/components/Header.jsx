@@ -9,6 +9,7 @@ const menuItems = [
       { label: 'Vision', link: '/about-us' },
       { label: 'Faculty', link: '/faculty' },
       { label: 'Advisors', link: '/advisors' },
+      // { label: 'Project Fireship', link: '/fireships' },
       { label: 'Team of 2025', link: '/team-2025' },
     ],
   },

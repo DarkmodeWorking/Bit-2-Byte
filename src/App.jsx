@@ -11,6 +11,7 @@ import Discord from './components/Discord'
 import Endorsement from './components/Endorsement'
 import UnderDevelopment from './components/UnderDevelopment'
 import Maintainers from './components/Maintainers'
+import Fireships from './components/Fireships'
 
 const appRouter = createBrowserRouter([
 	{
@@ -44,6 +45,13 @@ const appRouter = createBrowserRouter([
         element:
           <>
             <Advisors />
+          </>
+      },
+      {
+        path: '/fireships',
+        element:
+          <>
+            <Fireships />
           </>
       },
       {
