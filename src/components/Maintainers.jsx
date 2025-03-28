@@ -4,7 +4,7 @@ const teamMembers = [
 	{
 		id: 1,
 		name: 'Anurag Bhattacharjee',
-		department: 'aka DarkShadow',
+		department: 'aka GypsyDanger',
 		img: 'https://avatars.githubusercontent.com/u/185953875?v=4'
 	},
 	{
@@ -23,7 +23,7 @@ const Maintainers = () => {
 				<p className='mt-2 py-16 sm:px-40 text-sm sm:text-2xl text-white tracking-wide'>
 					Join the group of lazy maintainers of the official Bit-2-Byte Website. Join the team or create pull requests worthy of the website.
 				</p>
-				<a href='https://github.com/your-repo-link' target='_blank' rel='noopener noreferrer'>
+				<a href='https://github.com/DarkmodeWorking/Bit-2-Byte' target='_blank' rel='noopener noreferrer'>
 					<button className='my-2 px-6 py-3 bg-violet-600 hover:bg-violet-700 text-white text-lg font-semibold rounded-lg shadow-md'>
 						CLICK HERE AND STAR THE REPO
 					</button>
