@@ -18,22 +18,22 @@ const menuItems = [
     dropdown: [
       { label: 'Upcoming Events', link: '/upcoming-events' },
       { label: 'Past Events', link: '/past-events' },
-      { label: 'Get Involved', link: '/involved' },
+      // { label: 'Get Involved', link: '/involved' },
     ],
   },
   {
     name: 'Community',
     dropdown: [
-      { label: 'Github', link: '/github' },
-      { label: 'Stack Overflow', link: '/stack-overflow' },
-      { label: 'Kaggle', link: '/kaggle' },
+      // { label: 'Github', link: '/github' },
+      // { label: 'Stack Overflow', link: '/stack-overflow' },
+      // { label: 'Kaggle', link: '/kaggle' },
       { label: 'Discord', link: '/discord' },
     ],
   },
   {
     name: 'Archives',
     dropdown: [
-      { label: 'Achievements', link: '/achievements' },
+      // { label: 'Achievements', link: '/achievements' },
       { label: 'Endorsements', link: '/endorsements' },
     ],
   },
