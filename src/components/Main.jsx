@@ -84,7 +84,7 @@ const Main = () => {
         href='https://chat.whatsapp.com/FqKO8sNUKsPB8IUfe6lIb2'
         target='_blank'
         rel='noopener noreferrer'
-        className='relative my-28 px-6 py-3 flex items-center space-x-2 bg-green-500 text-white sm:text-lg font-semibold 
+        className='relative my-28 px-6 text-sm py-3 flex items-center space-x-2 bg-green-500 text-white sm:text-lg font-semibold 
         rounded-lg shadow-lg hover:bg-green-600 transition duration-300'
       >
         <div className='absolute -inset-2 rounded-full bg-green-500 opacity-75 blur-xl animate-pulse -z-10'></div>
