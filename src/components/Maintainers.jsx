@@ -5,13 +5,15 @@ const teamMembers = [
 		id: 1,
 		name: 'Anurag Bhattacharjee',
 		department: 'aka GypsyDanger',
-		img: 'https://avatars.githubusercontent.com/u/185953875?v=4'
+		img: 'https://avatars.githubusercontent.com/u/185953875?v=4',
+		url:'https://github.com/DarkmodeWorking'
 	},
 	{
 		id: 2,
 		name: 'Kaushik Kundu',
 		department: 'aka StrawHatPirate',
-		img: 'https://avatars.githubusercontent.com/u/105000989?v=4'
+		img: 'https://avatars.githubusercontent.com/u/105000989?v=4',
+		url:'https://github.com/kaushikkundu'
 	}
 ]
 
@@ -29,10 +31,10 @@ const Maintainers = () => {
 					</button>
 				</a>
 			</div>
-			<div className='grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6'>
+			<div className='flex justify-center  items-center md:grid-cols-4 gap-4 sm:gap-6'>
 				{teamMembers.map((member, index) => {
 					return (
-						<div key={member.id} className='flex flex-col items-center p-4 bg-zinc-900 rounded-xl shadow-md'>
+						<div key={member.id} className='flex flex-col items-center p-4 bg-zinc-900 rounded-xl shadow-md cursor-pointer hover:border border-cyan-400 border-4' onClick={()=> window.open(member.url,' _blank')}>
 							<img
 								src={member.img}
 								alt={member.name}
