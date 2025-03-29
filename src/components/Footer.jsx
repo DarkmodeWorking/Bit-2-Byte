@@ -32,14 +32,14 @@ const Footer = () => {
         </a>
       </div>
       <div className='flex flex-wrap justify-center space-x-6 sm:space-x-10 text-sm sm:text-base'>
-        <Link to='/maintainers' className='hover:text-indigo-500 transition'>Maintainers</Link>
-        <Link to='/open-source' className='hover:text-indigo-500 transition'>Open Source</Link>
-        <Link to='/activities' className='hover:text-indigo-500 transition'>Activities</Link>
-        <Link to='/documents' className='hover:text-indigo-500 transition'>Documents</Link>
-        <Link to='/contact' className='hover:text-indigo-500 transition'>Contact</Link>
+        <Link to='/maintainers' className='hover:text-blue-700 transition'>Maintainers</Link>
+        <Link to='/open-source' className='hover:text-blue-700 transition'>Open Source</Link>
+        <Link to='/activities' className='hover:text-blue-700 transition'>Activities</Link>
+        <Link to='/documents' className='hover:text-blue-700 transition'>Documents</Link>
+        <Link to='/contact' className='hover:text-blue-700 transition'>Contact</Link>
       </div>
       <div className='mt-4 text-center text-sm sm:text-base'>
-        <p>Email: <a href='mailto:bit2byteofficialgnit@gmail.com' className='text-indigo-500 hover:underline'>bit2byteofficialgnit@gmail.com</a></p>
+        <p>Email: <a href='mailto:bit2byteofficialgnit@gmail.com' className='text-blue-600 hover:underline'>bit2byteofficialgnit@gmail.com</a></p>
       </div>
     </div>
   )

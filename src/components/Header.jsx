@@ -10,7 +10,7 @@ const menuItems = [
       { label: 'Faculty', link: '/faculty' },
       { label: 'Advisors', link: '/advisors' },
       // { label: 'Project Fireship', link: '/fireships' },
-      { label: 'Team of 2025', link: '/team-2025' },
+      { label: 'Team of 2024', link: '/team-2024' },
     ],
   },
   {
@@ -77,7 +77,7 @@ const Header = () => {
                 onMouseEnter={() => handleMouseEnter(index)}
                 onMouseLeave={handleMouseLeave}
               >
-                <button className='text-lg font-semibold hover:text-indigo-500 transition'>
+                <button className='text-lg font-semibold hover:text-blue-700 transition'>
                   {item.name}
                 </button>
                 {activeDropdown === index && (
@@ -90,7 +90,7 @@ const Header = () => {
                       <li key={i}>
                         <Link
                           to={option.link}
-                          className='block px-4 py-2 hover:text-indigo-500 transition'
+                          className='block px-4 py-2 hover:text-blue-700 transition'
                         >
                           {option.label}
                         </Link>
@@ -124,7 +124,7 @@ const Header = () => {
               {menuItems.map((item, index) => (
                 <li key={index}>
                   <button
-                    className='w-full text-left text-lg font-semibold hover:text-indigo-500 transition'
+                    className='w-full text-left text-lg font-semibold hover:text-blue-700 transition'
                     onClick={() =>
                       setActiveDropdown(activeDropdown === index ? null : index)
                     }
@@ -137,7 +137,7 @@ const Header = () => {
                         <li key={i}>
                           <Link
                             to={option.link}
-                            className='block px-4 py-2 hover:text-indigo-500 transition'
+                            className='block px-4 py-2 hover:text-blue-700 transition'
                           >
                             {option.label}
                           </Link>

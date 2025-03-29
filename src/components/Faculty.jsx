@@ -19,7 +19,7 @@ const Faculty = () => {
 	return (
 		<div className='p-6'>
 			<div className='mb-8 text-center text-white'>
-				<h1 className='text-5xl font-bold text-indigo-500'>Faculty <br /> Co-ordinators</h1>
+				<h1 className='text-5xl font-bold text-blue-700'>Faculty <br /> Co-ordinators</h1>
 				<p className='mt-2 py-16 sm:px-40 text-sm sm:text-2xl text-white tracking-wide'>
 					The Faculty Co-ordinators of Bit-2-Byte has been very helpful to us be it decision making, event permissions or helping us out in times of crisis. Without them our vision for community development would not have been possible.
 				</p>

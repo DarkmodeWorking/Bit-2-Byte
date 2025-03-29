@@ -81,7 +81,7 @@ const Advisors = () => {
 	return (
 		<div className='p-6'>
 			<div className='mb-8 text-center text-white'>
-				<h1 className='text-5xl font-bold text-indigo-500'>Hall of Fame</h1>
+				<h1 className='text-5xl font-bold text-blue-700'>Hall of Fame</h1>
 				<p className='mt-2 py-16 sm:px-40 text-sm sm:text-2xl text-white tracking-wide'>
 					The Advisors of Bit-2-Byte have been the guiding force behind the community and shaping the vision. Without them the Bit-2-Byte community would have never been successful in achieving its vision. 
 				</p>

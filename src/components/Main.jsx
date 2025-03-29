@@ -39,16 +39,16 @@ const Main = () => {
     <div className='flex flex-col items-center justify-center mt-32 sm:mt-20 relative px-6'>
       <img src='main.png' className='h-48 sm:h-96 my-32 sm:my-0 mb-72 sm:mb-28' alt='Main' />
       <p className='mb-20 text-center sm:text-2xl sm:p-28'>
-        Bit-2-Byte was born from a dream—to <span className='text-indigo-400 font-bold'>help others grow, upskill, and share knowledge</span> for the upliftment of GNIT's coding community.
-        Through <span className='text-indigo-400 font-bold'>mentorship, workshops, and collaboration</span>, it has become a hub where passion meets innovation.
-        The goal is simple—<span className='text-indigo-400 font-bold'>learn, inspire, and pass it on</span>!
+        Bit-2-Byte was born from a dream—to <span className='text-blue-500 font-bold'>help others grow, upskill, and share knowledge</span> for the upliftment of GNIT's coding community.
+        Through <span className='text-blue-500 font-bold'>mentorship, workshops, and collaboration</span>, it has become a hub where passion meets innovation.
+        The goal is simple—<span className='text-blue-500 font-bold'>learn, inspire, and pass it on</span>!
       </p>
       <div className='mb-10 sm:mb-20 grid grid-cols-2 sm:grid-cols-3 gap-4 sm:gap-6 max-w-5xl'>
         {images.map((src, index) => (
           <div
             key={index}
             className='relative overflow-hidden rounded-xl shadow-lg group border-2 border-transparent 
-            hover:border-indigo-500 transition duration-300'
+            hover:border-blue-700 transition duration-300'
           >
             <img
               src={src}
@@ -58,7 +58,7 @@ const Main = () => {
           </div>
         ))}
       </div>
-      <h1 className='text-3xl sm:text-5xl text-indigo-500 font-bold my-5'>Latest Webinars</h1>
+      <h1 className='text-3xl sm:text-5xl text-blue-700 font-bold my-5'>Latest Webinars</h1>
       <div className='w-full max-w-6xl mt-16'>
         <div
           className='flex sm:grid sm:grid-cols-3 gap-6 overflow-x-auto sm:overflow-visible snap-x snap-mandatory pb-4 px-4'
