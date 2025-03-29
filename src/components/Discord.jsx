@@ -12,7 +12,7 @@ const Discord = () => {
         Whether you&apos;re a beginner or a pro, our collaborative community is here to help you learn, grow, and innovate together!
       </p>
       <a
-        href='https://discord.gg/your-server-link'
+        href='https://discord.gg/qXfMHtxX'
         target='_blank'
         rel='noopener noreferrer'
         className='mt-6 px-6 py-3 flex items-center space-x-2 bg-indigo-600 text-white text-lg font-semibold 
