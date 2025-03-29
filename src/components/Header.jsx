@@ -83,14 +83,14 @@ const Header = () => {
           </div>
         </>
       )}
-      <motion.button 
+      {/* <motion.button 
         drag 
         dragConstraints={{ right: 0, right: window.innerWidth - 50, top: 0, bottom: window.innerHeight - 50 }}
         onClick={toggleMusic} 
         className='fixed top-16 sm:top-8 right-8 bg-zinc-950 text-blue-700 hover:text-blue-400 p-2 rounded-full shadow-lg z-50 cursor-pointer'
       >
         <Music className='h-6 w-6' />
-      </motion.button>
+      </motion.button> */}
     </div>
   )
 }
