@@ -12,7 +12,7 @@ import Endorsement from './components/Endorsement'
 import UnderDevelopment from './components/UnderDevelopment'
 import Maintainers from './components/Maintainers'
 // import Fireships from './components/Fireships'
-
+import Hero from './components/Hero'
 const appRouter = createBrowserRouter([
 	{
 		path: '/',
@@ -22,6 +22,7 @@ const appRouter = createBrowserRouter([
         path: '/',
         element: 
           <>
+            <Hero />
             <Main />
           </>
       },

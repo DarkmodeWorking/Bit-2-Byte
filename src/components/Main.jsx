@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaWhatsapp } from 'react-icons/fa' 
-
+import Hero from './Hero'
 const images = [
   '/pics/6.JPG',
   '/pics/3.JPG',
@@ -36,9 +36,10 @@ const latestEvents = [
 
 const Main = () => {
   return (
-    <div className='flex flex-col items-center justify-center mt-32 sm:mt-20 relative px-6'>
-      <img src='main.png' className='h-48 sm:h-96 my-32 sm:my-0 mb-72 sm:mb-28' alt='Main' />
-      <p className='mb-20 text-center sm:text-2xl sm:p-28'>
+    <div className='flex flex-col items-center justify-center sm:mt-2 relative px-2'>
+      {/* <img src='main.png' className='h-48 sm:h-96 my-32 sm:my-0 mb-72 sm:mb-28' alt='Main' /> */}
+  
+      <p className='mb-10 text-center sm:text-2xl sm:p-28'>
         Bit-2-Byte was born from a dream—to <span className='text-indigo-400 font-bold'>help others grow, upskill, and share knowledge</span> for the upliftment of GNIT's coding community.
         Through <span className='text-indigo-400 font-bold'>mentorship, workshops, and collaboration</span>, it has become a hub where passion meets innovation.
         The goal is simple—<span className='text-indigo-400 font-bold'>learn, inspire, and pass it on</span>!
@@ -80,17 +81,7 @@ const Main = () => {
           ))}
         </div>
       </div>
-      <a
-        href='https://chat.whatsapp.com/FqKO8sNUKsPB8IUfe6lIb2'
-        target='_blank'
-        rel='noopener noreferrer'
-        className='relative my-28 px-6 py-3 flex items-center space-x-2 bg-green-500 text-white sm:text-lg font-semibold 
-        rounded-lg shadow-lg hover:bg-green-600 transition duration-300'
-      >
-        <div className='absolute -inset-2 rounded-full bg-green-500 opacity-75 blur-xl animate-pulse -z-10'></div>
-        <FaWhatsapp className='text-2xl' />
-        <span>Join The Official WhatsApp Group</span>
-      </a>
+      
     </div>
   )
 }

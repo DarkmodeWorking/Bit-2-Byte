@@ -57,7 +57,7 @@ const Header = () => {
   }
 
   return (
-    <div className='px-6 sm:px-10 sm:pr-36 py-4 shadow-md bg-black text-white relative z-50'>
+    <div className='px-6 sm:px-10 sm:pr-36 py-4 shadow-md bg-gray-900 text-white relative z-50'>
       <div className='flex items-center justify-between'>
         <div className='flex items-center space-x-4'>
           <Link to='/'>
@@ -67,6 +67,7 @@ const Header = () => {
               alt='Logo'
             />
           </Link>
+            <span className="font-semibold text-2xl"  >Bit 2 Byte</span>
         </div>
         <nav className='hidden md:flex'>
           <ul className='flex space-x-8'>
