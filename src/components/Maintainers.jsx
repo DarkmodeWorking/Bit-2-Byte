@@ -34,7 +34,7 @@ const Maintainers = () => {
 			<div className='flex justify-center  items-center md:grid-cols-4 gap-4 sm:gap-6'>
 				{teamMembers.map((member, index) => {
 					return (
-						<div key={member.id} className='flex flex-col items-center p-4 bg-zinc-900 rounded-xl shadow-md cursor-pointer hover:border border-cyan-400 border-4' onClick={()=> window.open(member.url,' _blank')}>
+						<div key={member.id} className='flex flex-col items-center p-4 bg-zinc-900 rounded-xl shadow-md cursor-pointer hover:border-4 border-cyan-400 border-2' onClick={()=> window.open(member.url,' _blank')}>
 							<img
 								src={member.img}
 								alt={member.name}
