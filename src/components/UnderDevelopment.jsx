@@ -3,7 +3,7 @@ import React from "react";
 const UnderDevelopment = () => {
   return (
     <div className="flex flex-col items-center justify-center h-screen text-white text-center p-6">
-      <h1 className="text-5xl font-bold text-indigo-500">Page Under Development</h1>
+      <h1 className="text-5xl font-bold text-blue-700">Page Under Development</h1>
       <p className="mt-4 text-lg text-gray-300">
         We are working hard to bring you this page. Stay tuned for updates!
       </p>

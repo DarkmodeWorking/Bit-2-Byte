@@ -21,7 +21,7 @@ const Maintainers = () => {
 	return (
 		<div className='p-6'>
 			<div className='mb-8 text-center text-white'>
-				<h1 className='text-5xl font-bold text-indigo-500'>Join the Website Maintainers</h1>
+				<h1 className='text-5xl font-bold text-blue-700'>Join the Website Maintainers</h1>
 				<p className='mt-2 py-16 sm:px-40 text-sm sm:text-2xl text-white tracking-wide'>
 					Join the group of lazy maintainers of the official Bit-2-Byte Website. Join the team or create pull requests worthy of the website.
 				</p>

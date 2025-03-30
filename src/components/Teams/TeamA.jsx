@@ -139,9 +139,9 @@ const TeamA = () => {
 	return (
 		<div className='p-6'>
 			<div className='mb-8 text-center text-white'>
-				<h1 className='text-5xl font-bold text-indigo-500'>Team of 2025</h1>
+				<h1 className='text-5xl font-bold text-blue-700'>Team of 2024</h1>
 				<p className='mt-2 py-16 sm:px-40 text-sm sm:text-2xl text-white tracking-wide'>
-					The Team of 2025 played a crucial role in reviving the Bit-2-Byte coding community, bringing together passionate developers, designers, and tech enthusiasts to create a space for learning, collaboration, and innovation.
+					The Team of 2024 played a crucial role in reviving the Bit-2-Byte coding community, bringing together passionate developers, designers, and tech enthusiasts to create a space for learning, collaboration, and innovation.
 					After a brief period of inactivity, this team reignited the spirit of Bit-2-Byte by organizing coding workshops and mentorship programs.
 				</p>
 			</div>

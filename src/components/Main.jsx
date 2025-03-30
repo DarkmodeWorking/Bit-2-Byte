@@ -49,7 +49,7 @@ const Main = () => {
           <div
             key={index}
             className='relative overflow-hidden rounded-xl shadow-lg group border-2 border-transparent 
-            hover:border-indigo-500 transition duration-300'
+            hover:border-blue-700 transition duration-300'
           >
             <img
               src={src}
@@ -59,7 +59,7 @@ const Main = () => {
           </div>
         ))}
       </div>
-      <h1 className='text-3xl sm:text-5xl text-indigo-500 font-bold my-5'>Latest Webinars</h1>
+      <h1 className='text-3xl sm:text-5xl text-blue-700 font-bold my-5'>Latest Webinars</h1>
       <div className='w-full max-w-6xl mt-16'>
         <div
           className='flex sm:grid sm:grid-cols-3 gap-6 overflow-x-auto sm:overflow-visible snap-x snap-mandatory pb-4 px-4'

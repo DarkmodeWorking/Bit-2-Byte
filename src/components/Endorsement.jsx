@@ -23,7 +23,7 @@ const Endorsement = () => {
 	return (
 		<div className='p-6'>
 			<div className='mb-8 text-center text-white'>
-				<h1 className='text-5xl font-bold text-indigo-500'>Endorsements</h1>
+				<h1 className='text-5xl font-bold text-blue-700'>Endorsements</h1>
 				<p className='mt-2 py-16 sm:px-40 text-sm sm:text-2xl text-white tracking-wide'>
 					Bit-2-Byte is not just any club that came out of the blue and started doind random things. We are a group of efficient and visionaries that has been proved by the Personalities in Tech who have endorsed us and our community.
 				</p>
