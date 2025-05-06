@@ -4,7 +4,7 @@ const teamMembers = [
 	{
 		id: 1,
 		name: 'Anurag Bhattacharjee',
-		department: 'aka GypsyDanger',
+		department: 'aka UserFromTheGrid',
 		img: 'https://avatars.githubusercontent.com/u/185953875?v=4',
 		url: 'https://github.com/DarkmodeWorking'
 	},
