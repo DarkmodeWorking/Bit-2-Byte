@@ -15,22 +15,28 @@ const images = [
 
 const latestEvents = [
   {
+    title: 'AYNTK: Supervised Learning',
+    date: 'March 30, 2025',
+    description: 'SUDIPTA SEN',
+    image: 'https://media.licdn.com/dms/image/v2/D5622AQHhnqbxtxzcNQ/feedshare-shrink_800/B56ZXlfo.8GcAg-/0/1743312032974?e=1750291200&v=beta&t=-Jf5Jqmn8_ihQ5lDtT7q6rfzu9zXmnB5Lv2ACjIpTuw'
+  },
+  {
     title: 'Cyber Security for Developers',
     date: 'March 16, 2025',
     description: 'UJJAL BHATTACHARYA',
-    image: 'https://media.licdn.com/dms/image/v2/D5622AQFg9N72hGxhdg/feedshare-shrink_800/B56ZWZlGAjHEAk-/0/1742038394216?e=1745452800&v=beta&t=VomIJRy3hun_QzyyHW5Sx3dCpqpq8LV0AoIMI9K-pwM'
+    image: 'https://media.licdn.com/dms/image/v2/D5622AQFg9N72hGxhdg/feedshare-shrink_800/B56ZWZlGAjHEAk-/0/1742038394216?e=1750291200&v=beta&t=AzDPRXITfWoFM6ufTphzRZ22ZQgRqslrypXBmInc5Uo'
   },
+  // {
+  //   title: 'Ultimate QNA Session',
+  //   date: 'December 22, 2024',
+  //   description: 'TEAM CACHE CREW',
+  //   image: 'https://media.licdn.com/dms/image/v2/D5622AQFMquyAFNF_Ww/feedshare-shrink_2048_1536/B56ZPrBgI.HIAo-/0/1734814862316?e=1750291200&v=beta&t=PVHAmLbzR3xnuXgBQIwOmbmR1kUWg4fo5ztKFRtGnO8'
+  // },
   {
-    title: 'Ultimate QNA Session',
-    date: 'December 22, 2024',
-    description: 'TEAM CACHE CREW',
-    image: 'https://media.licdn.com/dms/image/v2/D5622AQFMquyAFNF_Ww/feedshare-shrink_800/B56ZPrBgI.HIAg-/0/1734814862288?e=1745452800&v=beta&t=g54JG_TQ8OCwCO4ZPsxjnsRaiKduqzcQLhAcnv9xqtQ'
-  },
-  {
-    title: 'All you need to know: GIT',
+    title: 'AYNTK: Git',
     date: 'November 30, 2024',
     description: 'ANURAG BHATTACHARJEE',
-    image: 'https://media.licdn.com/dms/image/v2/D5622AQG7X31xJLZPgw/feedshare-shrink_800/feedshare-shrink_800/0/1732887237340?e=1745452800&v=beta&t=ShPYIPenZI4M9tEBT4HctpOiUFB1p7l6x34U7dv_pvU'
+    image: 'https://media.licdn.com/dms/image/v2/D5622AQG7X31xJLZPgw/feedshare-shrink_800/feedshare-shrink_800/0/1732887237340?e=1750291200&v=beta&t=n7Xg4NjB4RZohHdKLw9RpDYIG8s9Z5pDjRDvNIoU5F8'
   }
 ]
 

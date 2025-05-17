@@ -6,7 +6,7 @@ const teamMembers = [
 		name: 'Anurag Bhattacharjee',
 		department: 'CSE 3rd Year',
 		position: 'PRIME - Executions',
-		img: 'https://media.licdn.com/dms/image/v2/D5603AQFpcBlZOTRjtg/profile-displayphoto-shrink_400_400/B56ZXeO30eGcAg-/0/1743190196690?e=1748476800&v=beta&t=c4e0S8Bj1-VOJhcG0y2LWyh0HsaddgrXnVjEGHjEI28',
+		img: 'https://media.licdn.com/dms/image/v2/D5603AQGhZnhqSNJzTA/profile-displayphoto-shrink_400_400/B56ZbBQZMTHUAg-/0/1746999023578?e=1752710400&v=beta&t=XsksE0iEs2npilMcVnypqNGO6LeXun4oZSsmrr7u0c8',
 	},
 	{
 		id: 2,
