@@ -5,13 +5,13 @@ const teamMembers = [
 		id: 1,
 		name: 'Dr. Mahamuda Sultana',
 		department: 'Dept. of Computer Science Engineering (CSE)',
-		img: 'https://media.licdn.com/dms/image/v2/D5603AQG67AibWRr7Lg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1714373474088?e=1747872000&v=beta&t=IZZsSf_wrl0OsZ5Cq4mpPCMSv0Ue0wNaVMybJnYV62E'
+		img: 'https://media.licdn.com/dms/image/v2/D5603AQG67AibWRr7Lg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1714373474088?e=1753920000&v=beta&t=VO1A1pWA7cbF_c9p6UpG34qkbX-hHHopcaciBNz9JjI'
 	},
 	{
 		id: 2,
 		name: 'Mr. Tridib Chakraborty',
 		department: 'Dept. of Information Technology (IT)',
-		img: 'https://media.licdn.com/dms/image/v2/D4D03AQF7oL4rSI3LuQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1674567537767?e=1747872000&v=beta&t=Szxo0mStm338VpNOKpk3siWrRHdEAt5PqdVcOMQyQ-k',
+		img: 'https://media.licdn.com/dms/image/v2/D4D03AQF7oL4rSI3LuQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1674567537767?e=1753920000&v=beta&t=4Cvfznz1L-Qh6FMVIpAFRd14h7g0s8ws6WqTC2rID7w',
 	}
 ]
 

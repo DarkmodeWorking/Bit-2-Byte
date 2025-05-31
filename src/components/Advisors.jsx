@@ -5,9 +5,9 @@ const teamMembers = [
 		id: 1,
 		name: 'Kunal Singh',
 		department: 'Batch of 2018',
-		img: 'https://media.licdn.com/dms/image/v2/C5103AQGibG3NvPNGhQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1583780643273?e=1747872000&v=beta&t=oe15UAuu76uK00cH77q6emDraiLqhiN0TEP6OE5svpk',
+		img: 'https://media.licdn.com/dms/image/v2/C5103AQGibG3NvPNGhQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1583780643273?e=1753920000&v=beta&t=kJHimWjEVghwi_DGpEQKwctCcc8-ZWDKBeNWP9EwfTs',
 		company: 'Innoraft',
-		companyLogo: 'https://media.licdn.com/dms/image/v2/C560BAQEkzAo0Rox1KQ/company-logo_200_200/company-logo_200_200/0/1631315026179?e=1747872000&v=beta&t=CO5YsBBeN60RgXV7x3SIGupM5J99GPIF4Gp3rJfv7xQ'
+		companyLogo: 'https://media.licdn.com/dms/image/v2/C560BAQEkzAo0Rox1KQ/company-logo_200_200/company-logo_200_200/0/1631315026179?e=1753920000&v=beta&t=laY4-QIZcH0fEsA4SQvWQH4TRjqzcHl14E6h2dX5TfQ'
 	},
 	// {
 	//     id: 2,
@@ -19,41 +19,41 @@ const teamMembers = [
 		id: 3,
 		name: 'Saswata Mukhopadhyay',
 		department: 'Batch of 2021',
-		img: 'https://media.licdn.com/dms/image/v2/D5603AQF5WnveiRQnmQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1688663275546?e=1747872000&v=beta&t=xx0QyJNmpMp4C2Vm5NaRQeKecvURf5xmEn1tr8LoNIU',
+		img: 'https://media.licdn.com/dms/image/v2/D5603AQF5WnveiRQnmQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1688663275546?e=1753920000&v=beta&t=lE8-zJfObhoec3QEh8yyVffWu7PbawZdiljG_2kB0k4',
 		company: 'TCS iON',
-		companyLogo: 'https://media.licdn.com/dms/image/v2/D560BAQEanBut48aicA/company-logo_200_200/company-logo_200_200/0/1709721341282/tcs_ion_logo?e=1747872000&v=beta&t=Bai5kzz8TgPwhmEwRhsqtHVvxc5wVFFG1J8AA8D4iH8'
+		companyLogo: 'https://media.licdn.com/dms/image/v2/D560BAQEanBut48aicA/company-logo_200_200/company-logo_200_200/0/1709721341282/tcs_ion_logo?e=1753920000&v=beta&t=i8xUYr4gakeEnL5rRn1DHOt6X5HoImyjS3o2RkzJ0xk'
 	},
 	{
 		id: 4,
 		name: 'Prithviraj Biswas',
 		department: 'Batch of 2022',
-		img: 'https://media.licdn.com/dms/image/v2/D5635AQFfpLDEOFiyiQ/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1713251454161?e=1743793200&v=beta&t=7KDCv3Jfog29d30sIYMx399E98moC2DR21RhFckGyGA',
+		img: 'https://media.licdn.com/dms/image/v2/D5635AQFfpLDEOFiyiQ/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1713251454161?e=1749333600&v=beta&t=X0c3kp0eqyrD-m7_pXhpiXsh1wcyzXD7btsQOhlY1is',
 		company: 'Accenture',
-		companyLogo: 'https://media.licdn.com/dms/image/v2/D4E0BAQHDbmrSIZ2UdA/company-logo_200_200/company-logo_200_200/0/1723130689960/accenture_logo?e=1747872000&v=beta&t=If7YcuxJjwqxCx6TGkiIoeRlZh-U5C0oY2SMYtq69bs'
+		companyLogo: 'https://media.licdn.com/dms/image/v2/D560BAQHCNiZ7blKfhA/company-logo_200_200/B56ZcfITMHG0AI-/0/1748573962960/accentureindia_logo?e=1753920000&v=beta&t=XLrN7dnLcXTmsY67h6i2FnAb75opZdFiOe2mLxWgRRQ'
 	},
 	{
 		id: 5,
 		name: 'Abir Ganguly',
 		department: 'Batch of 2024',
-		img: 'https://media.licdn.com/dms/image/v2/D4D03AQGnftXQE4reyQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1727411652299?e=1747872000&v=beta&t=LkJPc2mxe2pPIz4Oou2c19cf12Yriqxs2aJitzatJGA',
+		img: 'https://media.licdn.com/dms/image/v2/D4D03AQGnftXQE4reyQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1727411652299?e=1753920000&v=beta&t=M5wcRQaaEsmUmqYspX9wtyPAplM4csa7Y53x8qN4Km4',
 		company: 'Accenture',
-		companyLogo: 'https://media.licdn.com/dms/image/v2/D4E0BAQHDbmrSIZ2UdA/company-logo_200_200/company-logo_200_200/0/1723130689960/accenture_logo?e=1747872000&v=beta&t=If7YcuxJjwqxCx6TGkiIoeRlZh-U5C0oY2SMYtq69bs'
+		companyLogo: 'https://media.licdn.com/dms/image/v2/D560BAQHBaq4KbfWSmQ/company-logo_200_200/B56Zcd2K6nGoAM-/0/1748552430276/accenture_logo?e=1753920000&v=beta&t=8a11o75gyvAzxQOTd2w_yVuusshrhSqGSEB-CzBubGo'
 	},
 	{
 		id: 6,
 		name: 'Adarsh Pandey',
 		department: 'Batch of 2024',
-		img: 'https://media.licdn.com/dms/image/v2/D4D03AQEprs86gCZlIA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1715879857986?e=1747872000&v=beta&t=ljFQgTlLM-PxSofJNjH8ErhnRrsIyMtSudSRAmy4l58',
+		img: 'https://media.licdn.com/dms/image/v2/D4D03AQEprs86gCZlIA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1715879857986?e=1753920000&v=beta&t=gLUer2z2sJseg2Jk5IvtKKHi6Y2c9InYINekf4piZOo',
 		company: 'Index Engines',
-		companyLogo: 'https://media.licdn.com/dms/image/v2/D4E0BAQGnCehqU4sqLg/company-logo_200_200/company-logo_200_200/0/1733865814789/index_engines_logo?e=1747872000&v=beta&t=o-eP63oSOoiNlpuDtXoQsshAIKRrx5t9rXNuHhmML-k'
+		companyLogo: 'https://media.licdn.com/dms/image/v2/D4E0BAQGnCehqU4sqLg/company-logo_200_200/company-logo_200_200/0/1733865814789/index_engines_logo?e=1753920000&v=beta&t=HCi_SqflWtZD-NIiusU3D07w9jK6QBYTOftsn8KKmcM'
 	},
 	{
 		id: 7,
 		name: 'Rajib Lochan Nandi',
 		department: 'Batch of 2024',
-		img: 'https://media.licdn.com/dms/image/v2/D5603AQGDDW_42M_XjQ/profile-displayphoto-shrink_400_400/B56ZRrjxKPHsAo-/0/1736971327175?e=1748476800&v=beta&t=AOTiSevog3RiYAth0pBupLSh3-jA_qquc7OD0SMn5OM',
+		img: 'https://media.licdn.com/dms/image/v2/D5603AQGDDW_42M_XjQ/profile-displayphoto-shrink_400_400/B56ZRrjxKPHsAo-/0/1736971327175?e=1753920000&v=beta&t=2_ZEh3r7nmKdbhY5wOpSV8RRAkNIbFnDtbI6fyoll-E',
 		company: 'TCS',
-		companyLogo: 'https://media.licdn.com/dms/image/v2/D4D0BAQGsGR9p4ikS5w/company-logo_200_200/company-logo_200_200/0/1708946550425/tata_consultancy_services_logo?e=1747872000&v=beta&t=mbNtPTZdlBp8YRzuG0xFfNsrVRjv_IFSJFWf71a3Biw'
+		companyLogo: 'https://media.licdn.com/dms/image/v2/D4D0BAQGsGR9p4ikS5w/company-logo_200_200/company-logo_200_200/0/1708946550425/tata_consultancy_services_logo?e=1753920000&v=beta&t=UAR0nLItiOChSECrJoHrPKZmkzLTZnChbKZbnSVK8sM'
 	},
 	// {
 	//     id: 8,
@@ -65,9 +65,9 @@ const teamMembers = [
 		id: 9,
 		name: 'Ishanjit Mukhopadhyay',
 		department: 'Batch of 2025',
-		img: 'https://media.licdn.com/dms/image/v2/D5603AQFw4Zsd__CKaw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1722106951643?e=1747872000&v=beta&t=Uohsk98WddxnQhlPcFu1P-yqmAM276lUKHXmfgwu7_E',
+		img: 'https://media.licdn.com/dms/image/v2/D5603AQFw4Zsd__CKaw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1722106951643?e=1753920000&v=beta&t=DVBpbSmuHaDvHOrB8U7EWUWJOcwhZzNwYG0bpUKyCJ0',
 		company: 'Accenture',
-		companyLogo: 'https://media.licdn.com/dms/image/v2/D4E0BAQHDbmrSIZ2UdA/company-logo_200_200/company-logo_200_200/0/1723130689960/accenture_logo?e=1747872000&v=beta&t=If7YcuxJjwqxCx6TGkiIoeRlZh-U5C0oY2SMYtq69bs'
+		companyLogo: 'https://media.licdn.com/dms/image/v2/D560BAQHBaq4KbfWSmQ/company-logo_200_200/B56Zcd2K6nGoAM-/0/1748552430276/accenture_logo?e=1753920000&v=beta&t=8a11o75gyvAzxQOTd2w_yVuusshrhSqGSEB-CzBubGo'
 	},
 	// {
 	//     id: 10,
