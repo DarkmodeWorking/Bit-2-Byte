@@ -5,17 +5,17 @@ const teamMembers = [
 		id: 1,
 		name: 'Prof. Swarup Kumar Mitra',
 		department: 'Principal',
-		img: 'https://media.licdn.com/dms/image/v2/C5103AQFavRPZHUjWLA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1561011567550?e=1748476800&v=beta&t=p_S6_DFCQIMedTo4EFzmjA_78e-W2uMxDdL5PRoPkmI',
+		img: 'https://media.licdn.com/dms/image/v2/C5103AQFavRPZHUjWLA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1561011567550?e=1753920000&v=beta&t=r48DcS4Ng95CtLM9dNGJ73w5PWtbeyILlm9WFGRxYBw',
 		company: 'GNIT',
-		companyLogo: 'https://media.licdn.com/dms/image/v2/C4D0BAQGVdTueWoZ0Eg/company-logo_200_200/company-logo_200_200/0/1660843902959?e=1748476800&v=beta&t=_4TljX2Re_6WAhsqSmCyPZGe4FKItShpmyNX0woFc_I'
+		companyLogo: 'https://media.licdn.com/dms/image/v2/C4D0BAQGVdTueWoZ0Eg/company-logo_200_200/company-logo_200_200/0/1660843902959?e=1753920000&v=beta&t=ekl5hpuLfWztpBfc5HYnyOvH7zd_DdcPYsFzPdZy6os'
 	},
 	{
 		id: 2,
 		name: 'Mr. Binit Kumar Mondal',
 		department: 'Co Organiser',
-		img: 'https://media.licdn.com/dms/image/v2/D4D03AQGO82wODOd0FA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1669284246602?e=1748476800&v=beta&t=gIYk63vwJVhL_T-6sD9xsO9Kk3MOdGmOlTL5a3hag28',
+		img: 'https://media.licdn.com/dms/image/v2/D4D03AQGO82wODOd0FA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1669284246602?e=1753920000&v=beta&t=lLveffXR3b-wCGiFqVhKZv6D1t9v1Fos_9xNRx4optY',
 		company: 'GDG Kolkata',
-		companyLogo: 'https://media.licdn.com/dms/image/v2/D4D0BAQEzvgRTaofPqg/company-logo_200_200/company-logo_200_200/0/1665876132735?e=1748476800&v=beta&t=H70h5y32RNIBHOe_2jq4L2doONi64tGeg_fQN0xTSC8'
+		companyLogo: 'https://media.licdn.com/dms/image/v2/D4D0BAQEzvgRTaofPqg/company-logo_200_200/company-logo_200_200/0/1665876132735?e=1753920000&v=beta&t=hciVs4NAQJw-GLPYl9W2n06-FlbpsPr_6M2uYJIMdYA'
 	}
 ]
 
