@@ -13,7 +13,7 @@ const teamMembers = [
 		name: 'Nanda Lal Das',
 		department: 'CSE 3rd Year',
 		position: 'PRIME - Operations',
-		img: 'https://media.licdn.com/dms/image/v2/D5603AQGZ9ZVNKzRXvg/profile-displayphoto-shrink_800_800/B56ZShRvcsGUAc-/0/1737872571533?e=1747872000&v=beta&t=vJRdJbiGnkfrWMD8ehYmysx38OlUwzzV0bSol9ztI80',
+		img: 'https://media.licdn.com/dms/image/v2/D5603AQGZ9ZVNKzRXvg/profile-displayphoto-shrink_400_400/B56ZShRvcsGUAg-/0/1737872571533?e=1753920000&v=beta&t=pw8Krutp1JfdMJAOjqsXakoLa7zkZD5kIg5lMi0IRx4',
 	},
 	{
 		id: 3,
@@ -34,35 +34,35 @@ const teamMembers = [
 		name: 'Zishan Khan Chowdhury',
 		department: 'CSE 3rd Year',
 		position: 'ADMIN - Public Relations',
-		img: 'https://media.licdn.com/dms/image/v2/D5603AQErNq7WwL69hA/profile-displayphoto-shrink_800_800/B56ZW7ENqVGoAc-/0/1742600204280?e=1748476800&v=beta&t=M7nmGKpCQWdYm6OeXLahB_rzCgRMgTK2C8KkCu83fT8'
+		img: 'https://media.licdn.com/dms/image/v2/D5603AQG-SjfhVwuWag/profile-displayphoto-shrink_400_400/B56Zbyy.reGgAg-/0/1747830179535?e=1753920000&v=beta&t=yE_ir50xYBXIVhFpAX5E7P6u1u3QxaA4CSk49VofFuI'
 	},
 	{
 		id: 6,
 		name: 'Ujjal Bhattacharya',
 		department: 'IT 3rd Year',
 		position: 'ADMIN - Development',
-		img: 'https://media.licdn.com/dms/image/v2/D5603AQFyQAt1U9psqw/profile-displayphoto-shrink_400_400/B56ZWYtwnOGQAg-/0/1742023888542?e=1747872000&v=beta&t=p_Scsv5WvFcWJ9nys4FxMoR336u0qCUsnzq1fKaKNWY'
+		img: 'https://media.licdn.com/dms/image/v2/D5603AQFyQAt1U9psqw/profile-displayphoto-shrink_400_400/B56ZWYtwnOGQAg-/0/1742023888542?e=1753920000&v=beta&t=SsgdC1XkSjTpCu9EAcRJUqLArfbuJLLN_ENvYKAaMpk'
 	},
 	{
 		id: 7,
 		name: 'Kaushik Kundu',
 		department: 'CSE 3rd Year',
 		position: 'DEV TEAM - Lead',
-		img: 'https://media.licdn.com/dms/image/v2/D5603AQHu0kCIyLM2aA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1706337232177?e=1747872000&v=beta&t=_GQJ0194adtGRdiBAjhhQ5LhWskb1toa2rqbtnCYIIM'
+		img: 'https://media.licdn.com/dms/image/v2/D5603AQHu0kCIyLM2aA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1706337232177?e=1753920000&v=beta&t=Rvf2tlcZgqtn5uURYF0XKerpjnQp9ERM-0O-aF2_8X0'
 	},
 	{
 		id: 8,
 		name: 'Raj Kumar Singh',
 		department: 'CSE 3rd Year',
 		position: 'ZONE LEAD - Cloud & CP',
-		img: 'https://media.licdn.com/dms/image/v2/D4D03AQGTSadTE2x4Lg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1696411025276?e=1747872000&v=beta&t=mTzYw7gRVQ14OPWPCf5wsNdwvw81ZOD-UMdk0gEjQ6w'
+		img: 'https://media.licdn.com/dms/image/v2/D4D03AQGTSadTE2x4Lg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1696411025276?e=1753920000&v=beta&t=BxKCuPbDeaW894Ec9Lrdz__aZ0uvOr6Q8aPtmZMiM60'
 	},
 	{
 		id: 9,
 		name: 'Diprit Turul',
 		department: 'CSE 3rd Year',
 		position: 'ZONE LEAD - Cyber ',
-		img: 'https://media.licdn.com/dms/image/v2/D4E03AQFyYqwY6ua4LQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729180547241?e=1747872000&v=beta&t=AziItol1iLdM2q4DOQDd7tWrrYjbjaC6ZAyxz5faM5k'
+		img: 'https://media.licdn.com/dms/image/v2/D4E03AQFyYqwY6ua4LQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1729180547223?e=1753920000&v=beta&t=uXOTEQynBnzFLBsrmPPDgP-SpnPiVul0MXZSlwIe6aM'
 	},
 
 	{
@@ -70,14 +70,14 @@ const teamMembers = [
 		name: 'Nilagrib Ray',
 		department: 'CSE 3rd Year',
 		position: 'ZONE LEAD - App',
-		img: 'https://media.licdn.com/dms/image/v2/D5603AQEk8fzosynUpQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1731150662270?e=1747872000&v=beta&t=rnhObP5YGoiJ9QITygx41RYha_kA-Gab5CmYiWil1dU'
+		img: 'https://media.licdn.com/dms/image/v2/D5603AQEk8fzosynUpQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1731150662252?e=1753920000&v=beta&t=QCfsaUW8_p4ZnHpC-LBMEcfwDdmnKf_Nux5QLtEYgLI'
 	},
 	{
 		id: 11,
 		name: 'Sudipta Sen',
 		department: 'CSE 3rd Year',
 		position: 'ZONE LEAD - AI/ML',
-		img: 'https://media.licdn.com/dms/image/v2/D5603AQEFwBTjwhIa2g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1670473804351?e=1747872000&v=beta&t=AGxhF-23ISkal4DeCjCXxMWmj6Yey5Ug_59LGE20SUw'
+		img: 'https://media.licdn.com/dms/image/v2/D5603AQEFwBTjwhIa2g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1670473804351?e=1753920000&v=beta&t=kn33Bcg3FNb-yxHm3K2LTmASorYujIMU9hUqudUhU5U'
 	},
 
 	{
@@ -85,41 +85,41 @@ const teamMembers = [
 		name: 'Mukta Das',
 		department: 'CSE 3rd Year',
 		position: 'ZONE LEAD - Web',
-		img: 'https://media.licdn.com/dms/image/v2/D5603AQF4aiZBury7hQ/profile-displayphoto-shrink_800_800/B56ZNkoqfAGwAc-/0/1732560202752?e=1747872000&v=beta&t=7ey8RzLImK7SSEhGzHvzIVhjqkiO1bWm6_7sXJHFOTw'
+		img: 'https://media.licdn.com/dms/image/v2/D5603AQF4aiZBury7hQ/profile-displayphoto-shrink_400_400/B56ZNkoqfAGwAg-/0/1732560202752?e=1753920000&v=beta&t=69RbClbc-kSNNJ8XC3uSIjCboSqAWPCsPbGdU6qk51A'
 	},
 	{
 		id: 13,
 		name: 'Soubhagya Das',
 		department: 'CSE 3rd Year',
 		position: 'ZONE LEAD - Web 3.0',
-		img: 'https://media.licdn.com/dms/image/v2/D5603AQF-8bj6RjyNMw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726592805581?e=1747872000&v=beta&t=_8I-cEODnO1Mx8MGmFW6UAB3G6HP8nq8k07Mb9EmxlY'
+		img: 'https://media.licdn.com/dms/image/v2/D5603AQF-8bj6RjyNMw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1726592805561?e=1753920000&v=beta&t=fFZJxYHQTERIwuUcfH-U_e9EqQWcChiA4-qvZA4VdGY'
 	},
 	{
 		id: 14,
 		name: 'Aiswariya Das',
 		department: 'CSE 3rd Year',
 		position: 'HEAD - Social Handles',
-		img: 'https://media.licdn.com/dms/image/v2/D5603AQGRN9BuTBTkgA/profile-displayphoto-shrink_800_800/B56ZUPqZSQHEAc-/0/1739724527228?e=1747872000&v=beta&t=QeeGl2D0-0qeG98eGNAshIDRgbeoo0jGulfsfqrfM7g'
+		img: 'https://media.licdn.com/dms/image/v2/D5603AQGRN9BuTBTkgA/profile-displayphoto-shrink_400_400/B56ZUPqZSQHEAg-/0/1739724527204?e=1753920000&v=beta&t=2QNxyJRmOk3r0JXw9OQfoKg9ZSXF6lslDJ0d_hmVmmo'
 	},
 	{
 		id: 15,
 		name: 'Srijon Deyasin',
 		department: 'CSE 3rd Year',
 		position: 'HEAD - Presentations',
-		img: 'https://media.licdn.com/dms/image/v2/D4E03AQFYUFaj9zCSzQ/profile-displayphoto-shrink_400_400/B4EZT66nkiGgAk-/0/1739376458840?e=1747872000&v=beta&t=5cTSV1U7Jrd-sQhBFmD2mj-deMZOoB09cAwlcs3Q_1I'
+		img: 'https://media.licdn.com/dms/image/v2/D4E03AQFYUFaj9zCSzQ/profile-displayphoto-shrink_400_400/B4EZT66nkiGgAk-/0/1739376458840?e=1753920000&v=beta&t=R4aT0MWsh0xLJGr7bHv9R4wjQeZSWCQwGNnLmp_haMI'
 	},
 	{
 		id: 16,
 		name: 'Unnati Narayan',
 		department: 'CSE 3rd Year',
 		position: 'HEAD - Videography',
-		img: 'https://media.licdn.com/dms/image/v2/D5603AQGCbD0ca7ZYJw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1706810391948?e=1747872000&v=beta&t=NlKXRHlDG_19AoNkS3iksPKhPw-BbQ65OWuvApBhLg4'
+		img: 'https://media.licdn.com/dms/image/v2/D5603AQGCbD0ca7ZYJw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1706810391948?e=1753920000&v=beta&t=HlRUG9dt9sXYtMpJ9UYShoObrC_U-rPZ161k7NGLz8c'
 	},
 	{
 		id: 17,
 		name: 'Abir Mitra',
 		position: 'SPOC',
-		img: 'https://media.licdn.com/dms/image/v2/D5603AQFY3HeUgwK-XA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1709358117355?e=1747872000&v=beta&t=VDNjkZH7hVZQRiKwkhLUGNlxI1cEYNLCuSF48RNxxZk'
+		img: 'https://media.licdn.com/dms/image/v2/D5603AQFY3HeUgwK-XA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1709358117355?e=1753920000&v=beta&t=BiYoMrr2XZE_VPNJgdhj2s938H_PuzE-tnP1qtpYZk8'
 	},
 	{
 		id: 18,
@@ -131,7 +131,7 @@ const teamMembers = [
 		id: 19,
 		name: 'Ujan Ghosh',
 		position: 'Cyber Club Associate',
-		img: 'https://media.licdn.com/dms/image/v2/D4D03AQGDWm-5YYHA5Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1688364893483?e=1747872000&v=beta&t=19R_KsW0x5id26HA0OBfNgP6nhtmsE4bjI_cSWHld0s'
+		img: 'https://media.licdn.com/dms/image/v2/D5603AQEbIAtxljAV9Q/profile-displayphoto-shrink_400_400/B56Zb71j_3HUAo-/0/1747981846121?e=1753920000&v=beta&t=dG9hzAN5pJLCbPWrtjv-C_GaJxf-wAC5vQ2cL9R5zoc'
 	}
 ]
 
